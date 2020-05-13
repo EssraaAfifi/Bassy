@@ -3,7 +3,7 @@ Hi, I am Assisstant, your personal Bassy [Big Hero 6 Refrence]
 I will help note down your tasks, create alarms and open files.
 I'm still in Beta testing, so please don't hate me.
 """
-#import Tutorial
+import Tutorial
 
 #Basic Variables
 Yes = (True, "True", "Y", "y", "Yes", "yes")
@@ -13,7 +13,7 @@ No = (False, "Flase", "N", "n", "No", "no")
 #Greeting after opening up for the first time/system reboot
 print("Hello, I am Assisstant, your personal Bassy:]\nWhat should I call you???")
 Admin_Name = input()
-print("What a beautiful name.")
+print(Admin_Name +", that's a beautiful name.")
 print ("What do you want the command to call on me to be?")
 Command_word = input()
 #----------------------------------------------------------------------------------------------------------------------
@@ -34,4 +34,5 @@ else:
 if answer in Yes:
     Want_tutral(answer)
 elif answer in No:
+    print("Sleepin Yo")
     #Module Sleepin_yo
